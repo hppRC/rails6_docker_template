@@ -25,6 +25,8 @@ only this.
 - rails6
 - PostgreSQL
 
+# deploy
+
 you can deploy this app to heroku without no preparation.  
 (of course, you should to be able to use heroku CLI)
 
