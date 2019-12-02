@@ -1,6 +1,6 @@
 # rails6_docker_template
 
-thanks to this article; https://qiita.com/me-654393/items/ac6f61f3eee66380ecd7
+**thanks to this article: https://qiita.com/me-654393/items/ac6f61f3eee66380ecd7**
 
 # how to use
 
