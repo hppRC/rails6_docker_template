@@ -1,24 +1,38 @@
-# README
+# rails6_docker_template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+thanks to this article; https://qiita.com/me-654393/items/ac6f61f3eee66380ecd7
 
-Things you may want to cover:
+# how to use
 
-* Ruby version
+you should be able to use Docker CLI.
 
-* System dependencies
+## 1. click "Use this template"
 
-* Configuration
+you can create your own repositry with this template.
 
-* Database creation
+## 2. set up in your local machine
 
-* Database initialization
+how to setup.
 
-* How to run the test suite
+```
+bash init.sh
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+only this.
 
-* Deployment instructions
+# what you can use
 
-* ...
+- rails6
+- PostgreSQL
+
+you can deploy this app to heroku without no preparation.  
+(of course, you should to be able to use heroku CLI)
+
+only this.
+
+```
+docker-compose run web bundle install
+heroku login --interactive
+heroku create
+git push heroku master
+```
